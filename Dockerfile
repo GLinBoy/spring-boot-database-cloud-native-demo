@@ -1,4 +1,4 @@
-FROM ghcr.io/graalvm/graalvm-community:22 AS builder
+FROM ghcr.io/graalvm/graalvm-community:25 AS builder
 WORKDIR /workspace/app
 
 COPY .mvn .mvn
